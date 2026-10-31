@@ -1,0 +1,19 @@
+﻿npm : PASS tests/calculator.test.js
+At line:1 char:1
++ npm test --silent *>&1 | Out-File -FilePath test_output_2431200016_Ph ...
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (PASS tests/calculator.test.js:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  compute
+    ΓêÜ adds (2 ms)
+    ΓêÜ subs
+    ΓêÜ multiplies
+    ΓêÜ divides
+    ΓêÜ divide by zero
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        3.875 s
+Ran all test suites.
